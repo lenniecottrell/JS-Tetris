@@ -1,0 +1,18 @@
+.grid {
+    width: 200px; /*for each cell to be 20x20, this is what we need*/
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+/*this will style all the divs in the grid element */
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+/*give the tetrominos some style*/
+.tetromino {
+    background-color: blue;
+}
